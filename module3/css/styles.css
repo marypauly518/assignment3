@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #DEB887;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:grey;
+  border-radius: 0;
+  border: 0;
+}
+
+h1{color: black;
+text-align: left;}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-header h1 { /* company name */
+ 
+
+  font-size: 2em;
+  text-transform: uppercase;
+
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:.75;
+}
+
+.row{width: 100%;}
+
+h2{
+text-align: center;
+}
+
+section {
+
+border: 1px solid black;
+margin-left: 15px;
+margin-right: 5px;
+margin-bottom: 15px;
+float: left;
+padding: 10px;
+overflow: auto;
+background-color:grey;
+}
+
+p{float: left;
+padding: 10px;
+overflow: auto;
+}
+
+#h2{background-color:#DEB887;
+ }
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;color:black;
+  }
+  
