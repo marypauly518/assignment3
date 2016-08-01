@@ -60,4 +60,24 @@ overflow: auto;
  #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;color:black;
   }
+/********** Large devices  **********/
+
+@media (min-width: 992px) {
   
+  .col-lg-12{width: 100%}
+
+}
+
+/********** Medium devices  **********/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+  
+  
+  .col-mg-12{width: 100%;}
+}
+/********** mobile devices **********/
+
+@media (max-width: 767px) {
+
+  .col-sg-12{width: 100%;}
+}  
